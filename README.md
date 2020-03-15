@@ -43,6 +43,7 @@
  
 ### How different is Elderask from the today's Applications?
 <img src="https://user-images.githubusercontent.com/44015667/76699504-53f5f180-66f1-11ea-97cb-d402b19c8e9c.png" width="30%">
+ 
  > The product that targeting users are using : Mask Apps such as "DokDok" and "Mask Scanner" & Waiting in a huge line in front of the drugstore.  
  
  > - As the app shows, it only depicts a map with "sold out" status. As mentioned above, Elderask will use this as a small reference for the users, but this will not be the focus work. **"품절", which means "Sold out".**
