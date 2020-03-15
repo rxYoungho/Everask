@@ -53,4 +53,9 @@
  
  > - At near point, Elderask is planning to add a user identification system that allows the reservation if they were born before 1955.
  
+### From where will Elderask get user Feedback?
+
+ > - Due to the Novel Coronavirus, it is quite impossible to have a meeting with the elders. We are considering a direct phone call to each of the team members' family members, especially the grandparents ages. 
+ 
+ > - When the small meetings are fine in the near future, we planned to have 4 people meeting from the Incheon Senior Citizens' Center.
  
