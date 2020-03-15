@@ -9,7 +9,7 @@
 ### Targeting Population
  > * Number of elders in South Korea (over 65): 8,030,000 Population
 
- ### Current Issues due to the Novel Corona Virus [written 2020.03.15]
+ ### Current Issues due to the Novel Corona Virus [Written 2020.03.15]
  <code>
  <pre>
  
