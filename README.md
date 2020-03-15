@@ -3,7 +3,7 @@
 ### Contributors
  > - Youngho Kim : youngho.kim@stonybrook.edu
  > - Dongha Song : dongha.song@stnoybrook.edu
- > - Jey Kang    : 
+ > - Jey Kang    : jey.kang@stonybrook.edu
 
 
 ### Targeting Population
@@ -12,8 +12,10 @@
  ### Current Issues due to the Novel Corona Virus [written 2020.03.15]
  <code>
  <pre>
-  Reference: http://www.arirang.com/News/News_View.asp?sys_lang=Eng&nseq=253896
-  Reference: http://www.arirang.co.kr/News/News_View.asp?nseq=254163
+  S. Korea to regulate face mask sales from Monday
+  -> http://www.arirang.com/News/News_View.asp?sys_lang=Eng&nseq=253896
+  5-day rotation mask distribution system unfavorable to foreigners
+  -> http://www.arirang.co.kr/News/News_View.asp?nseq=254163
  </code>
  </pre>
  
