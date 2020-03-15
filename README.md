@@ -12,11 +12,13 @@
  ### Current Issues due to the Novel Corona Virus [written 2020.03.15]
  <code>
  <pre>
+ 
   S. Korea to regulate face mask sales from Monday
   -> http://www.arirang.com/News/News_View.asp?sys_lang=Eng&nseq=253896
   
   5-day rotation mask distribution system unfavorable to foreigners
   -> http://www.arirang.co.kr/News/News_View.asp?nseq=254163
+ 
  </code>
  </pre>
  
@@ -47,7 +49,7 @@
  > - Elderask will change the map format to a List format, and simply put all the vicinity and reservation embeded drugstores to the application. 
  
  > - As soon as the app is opend, the users(elders) will see the current reservation status.
- >   > - Examples: "Korea National Pharmacy : 6 / 10 booked already."
+ > > - Example: "Korea National Pharmacy : 6 / 10 booked already."
  
  > - At near point, Elderask is planning to add a user identification system that allows the reservation if they were born before 1955.
  
