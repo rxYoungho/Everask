@@ -29,3 +29,6 @@
  
  >  5. Since the elders made the reservations for their masks, they are not required to wait in the lines. They can visit the drugstores at a certain appointed time.
  
+### How different is Elderask from the today's Applications?
+<img src="https://user-images.githubusercontent.com/44015667/76699504-53f5f180-66f1-11ea-97cb-d402b19c8e9c.png" width="30%">
+
