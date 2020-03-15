@@ -10,6 +10,13 @@
  > * Number of elders in South Korea (over 65): 8,030,000 Population
 
  ### Current Issues due to the Novel Corona Virus [written 2020.03.15]
+ <code>
+ <pre>
+  Reference: http://www.arirang.com/News/News_View.asp?sys_lang=Eng&nseq=253896
+  Reference: http://www.arirang.co.kr/News/News_View.asp?nseq=254163
+ </code>
+ </pre>
+ 
  >  1. According to today's South Korea, most of the people wait in front of the pharmacies to buy the masks to avoid from Novel Coronavirus. 
 
  >  2. There are some applications on cellphones that show the inventories of the masks of the users' vicinity drugstores, such as "DokDak" and "Mask Scanner". However, the problem is that the employees of the drugstores have no time to renew the stock status of their masks and the UI is too complex for the elders to use. 
@@ -34,6 +41,12 @@
 
 ##### 품절 means Sold out
  
- > - As the map shows, it only shows "sold out" status since the drugstore has no time to renew the stock status of the masks. 
+ > - As the map shows, it only depicts "sold out" status since the drugstore has no time to renew the stock status of the masks. 
 
- > -
+ > - Elderask will change the map format to a List format, and simply put all the vinicity and reservation embeded drugstore to the application. 
+ 
+ > - As soon as the app is opend, the users(elders) will see the current reservation status.
+ 
+ > - At near point, Elderask is planning to add a user identification system that allows the reservation if they were born before 1955.
+ 
+ 
