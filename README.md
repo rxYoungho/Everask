@@ -38,10 +38,8 @@
  
 ### How different is Elderask from the today's Applications?
 <img src="https://user-images.githubusercontent.com/44015667/76699504-53f5f180-66f1-11ea-97cb-d402b19c8e9c.png" width="30%">
-
-##### 품절 means Sold out
  
- > - As the map shows, it only depicts "sold out" status since the drugstore has no time to renew the stock status of the masks. 
+ > - As the app shows, it only depicts a map with "sold out" status. However, since the drugstore has no time to renew the stock status of the masks, it is only showing **"품절", which means "Sold out".**
 
  > - Elderask will change the map format to a List format, and simply put all the vinicity and reservation embeded drugstore to the application. 
  
