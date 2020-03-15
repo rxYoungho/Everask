@@ -1,4 +1,4 @@
-## Elderask _ (Mask for Elders)
+## Elderask__Mask for the Elders
 
 ### Contributors
  > - Youngho Kim : youngho.kim@stonybrook.edu
