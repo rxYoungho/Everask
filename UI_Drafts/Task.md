@@ -20,17 +20,11 @@
  ### Three Main Tasks [Written 2020.04.05]
  <code>
  <pre>
- 
-  1. A user finding a drugstore to buy masks, that is nearest to him.
-  
+  1. A user finding a drugstore to buy masks, that is nearest to him.  
   2. A new recruit from a company searching for a drugstore that sells a lot of masks. 
-  > -> He or she needs many masks  for the co-workers to buy.
-  
+  - He or she needs many masks  for the co-workers to buy.
   3. A grandson booking masks for his grandparents living far away from him.
-  > ->
-  
-  -> http://www.arirang.co.kr/News/News_View.asp?nseq=254163
- 
+  - The grandparents are not familiar with the smartphones, and they do not know which drugstrore sells masks.
  </code>
  </pre>
  
