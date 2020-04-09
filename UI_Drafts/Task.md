@@ -17,7 +17,7 @@
  > * How will the primary screen of the App represent the object and purpose of the App?
  > * How will be the reservation system look like?
  
- ### Three Main Tasks [Written 2020.04.05]
+ ### Three Main Tasks
   1. A user finding a drugstore to buy masks, that is nearest to him. 
   
   2. A new recruit from a company searching for a drugstore that sells a lot of masks. 
