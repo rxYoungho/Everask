@@ -4,6 +4,7 @@
     <head>
         <title> Everask For All </title>
         <link rel="stylesheet" href="prototype.css">
+        
     </head>
     <body>
         <section class="navigation">
@@ -23,13 +24,16 @@
                   <li>
                     <a href="./SearchDrugstore.html">Search Drugstore</a>
                   </li>
+                  <li>
+                    <a href="./Navigation.html">Drugstore Direction</a>
+                  </li>
                 </ul>
               </nav>
             </div>
           </section>
         <ul>
             <div id="contentframe" style="position: relative;; top: 0px; right: 20px;">
-              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1p6Qhc8kb20XqYGqaZ45di6v5iTbRvIMo" width="1340" height="880"></iframe>
+              <iframe id = "myIframe" src="https://www.google.com/maps/d/u/0/embed?mid=1p6Qhc8kb20XqYGqaZ45di6v5iTbRvIMo" width="1340" height="580"></iframe>
             </div>
         </ul>
         
@@ -39,5 +43,6 @@
         document.getElementById("order").onclick = function() {
             location.href = "order.html";}
     </script>
+    
     </body>
 </html>

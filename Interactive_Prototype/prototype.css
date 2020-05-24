@@ -3,6 +3,7 @@
 iframe{
   margin-left: auto;
   margin-right: auto;
+  border: 2px solid white;
 }
 
 body {
@@ -78,7 +79,7 @@ nav ul li ul li a {
   top: 0;
   right: 0;
   background: #262626;
-  height: 70px;
+  /* height: 60px; */
   width: 70px;
 }
 @media only screen and (max-width: 798px) {
