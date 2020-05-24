@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./slideshow.css" rel="stylesheet" />
+    <script src="./slideshow.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="slideshow-container">
+        <div id="slide1" class="mySlides fade">
+            <div class="numbertext">1 / 1</div>
+            <img src="https://lh3.googleusercontent.com/proxy/EJtBSawX09QzSodD0l7NQtC5w4HI5XBMTUApkuAII-sY_NMgp6pc2BZmxtRmb0Z3DVzFfYLQe-9lck82bRflLQMnG9J6cTDQqWELsmlbNQ25yXetc-_c_vDcoLqAzCU95wsVu-BaeGUsIgFyTH6Gpq_0bqupXyWiHpf3SC6rZklX2iU9MxTL4_pTQ0yAaWJYHXEzZucLfMi8-BUAugbh6yJgeCqj5TLA4Z9sMwq3HbJZhHJW3Xi-ssJZTD8rIMORoJjOmpzB1-2eKod73Dgedulo-jZ00VhmSOK5WGPkGZLaC2GAyKIuX0KjpXvEJByYeiDg1A
+            " style="width:100%">
+        </div>
+        <!-- <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://lh3.googleusercontent.com/proxy/s_Db_Imh8vh6_TYhezTzvpYsyyu0kKYV9SXtMjacrI4hZzWDpCPPe4iWj4SLsZX0yMlzas3COelnycAuI4rmsBiJszCoFkp4WuIpy16HKKEheD5m0LKgGFv1H4Py7dOmdhrzjhTlrpAJKd3vqDQ-tCEjSQJkWBp3x6eRH_xT1HOtg4JUun4bwIyMHYYCwgobE6a0Hw6S-E7F" style="width:100%">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://lh3.googleusercontent.com/proxy/upxcU4Q4H-SSaaGu7SbmNFXTR4f1ZtMOQ4L8qlBRTi9F9D03DApQPaN5gXTKbQIXGxShoDcOTMAoH2Gu2tYq6LnL9WbGWOsE8xA1j_ksU6-cvKPKtYlaaY7rsNE7vCekZk2YLysOAPqCVf1TPRtOclt_zL0_3m5WA6aDlC_68wuEqR4exOOQHTIn2-dUF-RYXK1Ub1_iDFAh" style="width:100%">
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div> -->
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <!-- <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span> -->
+    </div>
+    <div class="pos">
+    <button id="order"></button>
+    </div>
+    <div class="pos1">
+    <button id="navigation"></button>
+    </div>
+    <div class="header">
+        <h1>Songdo Neat Drugstore</h1>
+    </div>
+    <h2>Address</h2>
+    <p>
+      Incheon, Yeonsu-gu, Songdo-dong, 6-10
+    </p>
+    <h2>Call Number</h2>
+    <p>
+      032-833-8324
+    </p>
+    <h2>Distance from your location</h2>
+    <p>
+      2.7 km
+    </p>
+    <h2>Number of masks</h2>
+    <p>
+      6 masks
+    </p>
+    <script type="text/javascript">
+      document.getElementById("order").onclick = function() {
+          location.href = "../order.html";}
+      document.getElementById("navigation").onclick = function() {
+          location.href = "../navigation/New.html";}
+    </script>
+  </body>
+</html>
