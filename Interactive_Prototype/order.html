@@ -27,15 +27,25 @@
 		<input type="text" size="5" class="form-control" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required />
 		<label for="cardCVC">CV CODE</label>
 		<input type="text" size="3" class="form-control" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required />
-		<label for="couponCode">DISCOUNT CODE</label>
-		<input type="text" class="form-control" name="couponCode" />
         <label for="couponCode">Number of Mask</label>
 		<input type="text" class="form-control" name="couponCode" />
 		<br>
-		<button class="blueButton" style="float:right;" type="submit">Confirm Payment</button>
+		<button class="blueButton" id= "go_home" style="float:left;" type="submit">Home</button>
+		<button class="blueButton" id= "order_submit" style="float:right;" type="submit">Confirm Payment</button>
+
 		<br><br>
 </form>
 <!-- If you're using Stripe for payments -->
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+	document.getElementById("order_submit").onclick = function () {
+		location.href = "Thanks.html";
+	};
+	document.getElementById("go_home").onclick = function () {
+		location.href = "prototype.html";
+	};
+	
+</script>
 </form>
 </body>
