@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title> Everask For All </title>
+        <link rel="stylesheet" href="prototype.css">
+        
+    </head>
+    <body>
+        <section class="navigation">
+            <div class="nav-container">
+              <div class="brand">
+                <a href="./prototype.html"></a><img src="everlask.png" style="width: 180px;"> 
+              </div>
+              <nav>
+                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
+                  <li>
+                    <a href="./prototype.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="./order.html">Order Mask</a>
+                  </li>
+                  <li>
+                    <a href="./search/SearchDrugstore.html">Search Drugstore</a>
+                  </li>
+                  <li>
+                    <a href="./navigation/Navigation.html">Drugstore Direction</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </section>
+        <ul>
+            <div id="contentframe" style="position: relative;; top: 0px; right: 20px;">
+              <iframe id = "myIframe" src="https://www.google.com/maps/d/u/0/embed?mid=1p6Qhc8kb20XqYGqaZ45di6v5iTbRvIMo" width="1340" height="580"></iframe>
+            </div>
+        </ul>
+        
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="./prototype.js"></script>
+    <script type="text/javascript">
+        document.getElementById("order").onclick = function() {
+            location.href = "order.html";}
+    </script>
+    
+    </body>
+</html>

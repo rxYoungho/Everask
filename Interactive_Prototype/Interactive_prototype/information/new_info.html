@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./slideshow.css" rel="stylesheet" />
+    <script src="./slideshow.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="slideshow-container">
+        <div id="slide1" class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://lh3.googleusercontent.com/proxy/niCQUsf7OUEdpuGrtgjBYSGjqdfSN22hMfAG0IMsOuW0-F3xRtIsFpXWJ45YIT9vqfRRH4BSAjNhQZvA0Xjx3aSskgUhoaroVHIk9cKi8Ra2sjq3M15zQX5grAbzXY_Nfa3hH6xyrR1lyAkOmvKrgzS7wuk8EwgTJX_uNBe2G4Ej6y58la-6OTw0JfwuLVcVsPRILh9qvAlo
+            " style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://lh3.googleusercontent.com/proxy/s_Db_Imh8vh6_TYhezTzvpYsyyu0kKYV9SXtMjacrI4hZzWDpCPPe4iWj4SLsZX0yMlzas3COelnycAuI4rmsBiJszCoFkp4WuIpy16HKKEheD5m0LKgGFv1H4Py7dOmdhrzjhTlrpAJKd3vqDQ-tCEjSQJkWBp3x6eRH_xT1HOtg4JUun4bwIyMHYYCwgobE6a0Hw6S-E7F" style="width:100%">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://lh3.googleusercontent.com/proxy/upxcU4Q4H-SSaaGu7SbmNFXTR4f1ZtMOQ4L8qlBRTi9F9D03DApQPaN5gXTKbQIXGxShoDcOTMAoH2Gu2tYq6LnL9WbGWOsE8xA1j_ksU6-cvKPKtYlaaY7rsNE7vCekZk2YLysOAPqCVf1TPRtOclt_zL0_3m5WA6aDlC_68wuEqR4exOOQHTIn2-dUF-RYXK1Ub1_iDFAh" style="width:100%">
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    
+    <div class="header">
+        <h1>New Songdo Drugstore</h1>
+        <div class="pos">
+          <button id="order"></button>
+          </div>
+          <div class="pos1">
+          <button id="navigation"></button>
+        </div>
+    </div>
+    <h2>Address</h2>
+    <p>
+      Incheon, Yeonsu-gu, Songdo-dong, Myungin Praza
+    </p>
+    <h2>Call Number</h2>
+    <p>
+      032-831-0881
+    </p>
+    <h2>Distance from your location</h2>
+    <p>
+      2.1 km
+    </p>
+    <h2>Number of masks</h2>
+    <p>
+      13 masks
+    </p>
+    <script type="text/javascript">
+      document.getElementById("order").onclick = function() {
+          location.href = "../order.html";}
+      document.getElementById("navigation").onclick = function() {
+          location.href = "../navigation/New.html";}
+    </script>
+  </body>
+</html>
