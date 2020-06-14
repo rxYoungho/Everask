@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./top_bar.css" rel="stylesheet" />
+
+    <link href="./slideshow.css" rel="stylesheet" />
+    <script src="./slideshow.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="..prototype.html"></a><img src="everlask.png" style="width: 180px;"> 
+        </div>
+        <nav>
+          <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+          <ul class="nav-list">
+            <li>
+              <a href="../prototype.html">Home</a>
+            </li>
+            <li>
+              <a href="../About_us.html">About us</a>
+            </li>
+            <li>
+              <a href="Health_order.html">Order Mask</a>
+            </li>
+            <li>
+              <a href="../search/SearchDrugstore.html">Search Drugstore</a>
+            </li>
+            <li>
+              <a href="../navigation/Navigation.html">Drugstore Direction</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+</section>
+    <div class="slideshow-container">
+        <div id="slide1" class="mySlides fade">
+            <div class="numbertext">1 / 1</div>
+            <img src="https://lh3.googleusercontent.com/proxy/4lnWoF7qhe0GsKk75jQVG8bku4ou7PzyyuzmPPGDXQF9v4jkr1UpRlHydltNJBtqA9uH0xUZ1GZeqO60gpV0lh7Y1eEynUDhrEHKu0DTZVMxnyP1V8yW1ID73Vv1GpsCwdBlxKFDL58je0U1BYZmVKR6KmaFF76VHhxqneHweQjQ4JVN57PQavmdB7eIxXZ55tCzKIzhsYcWN8p5Hdc1jlqd9dsWpSE0BIpwbZN8PLS1gGgVbVtaTMcgSMFY5I7I-uwA9bT2k3qDDjqzIXJCqdRhcxLBwdhYQhE8u1AE__qUwf0QMUgb
+            " style="width:100%">
+        </div>
+        <!-- <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://lh3.googleusercontent.com/proxy/s_Db_Imh8vh6_TYhezTzvpYsyyu0kKYV9SXtMjacrI4hZzWDpCPPe4iWj4SLsZX0yMlzas3COelnycAuI4rmsBiJszCoFkp4WuIpy16HKKEheD5m0LKgGFv1H4Py7dOmdhrzjhTlrpAJKd3vqDQ-tCEjSQJkWBp3x6eRH_xT1HOtg4JUun4bwIyMHYYCwgobE6a0Hw6S-E7F" style="width:100%">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://lh3.googleusercontent.com/proxy/upxcU4Q4H-SSaaGu7SbmNFXTR4f1ZtMOQ4L8qlBRTi9F9D03DApQPaN5gXTKbQIXGxShoDcOTMAoH2Gu2tYq6LnL9WbGWOsE8xA1j_ksU6-cvKPKtYlaaY7rsNE7vCekZk2YLysOAPqCVf1TPRtOclt_zL0_3m5WA6aDlC_68wuEqR4exOOQHTIn2-dUF-RYXK1Ub1_iDFAh" style="width:100%">
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <!-- <span class="dot" onclick="currentSlide(2)"></span> -->
+        <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+    </div>
+    <div class="header">
+        <h1>Songdo Health Drugstore</h1>
+        
+        <div class="pos">
+        <button id="order"></button>
+        </div>
+        <div class="pos1">
+        <button id="navigation"></button>
+        </div>
+    </div>
+    <h2>Address</h2>
+    <p>
+      Incheon, Yeonsu-gu, Songdo-dong, 3-1
+    </p>
+    <h2>Call Number</h2>
+    <p>
+      032-858-7791
+    </p>
+    <h2>Distance from your location</h2>
+    <p>
+      3.1 km
+    </p>
+    <h2>Number of masks</h2>
+    <p>
+      20 masks
+    </p>
+    <script type="text/javascript">
+      document.getElementById("order").onclick = function() {
+          location.href = "Health_order.html";}
+      document.getElementById("navigation").onclick = function() {
+          location.href = "../navigation/New.html";}
+    </script>
+  </body>
+</html>
